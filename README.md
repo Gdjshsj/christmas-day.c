@@ -1,2 +1,14 @@
-# christmas-day.c
-write a program that checks whether its a christmas or not
+#include<stdio.h>
+int main()
+{
+    int day;
+    scanf("%d",&day);
+    if(day==25)
+    {
+            printf("christmas");
+        }
+        else
+        {
+            printf("ordinary");
+        }
+    }
